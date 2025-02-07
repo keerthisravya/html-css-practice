@@ -4,5 +4,20 @@ div{
     background-color: blue;
     display:inline-block;
     border:5px solid black;
+
     
+}
+#box1{
+    position:static;
+}
+#box2{
+    position:relative;
+    top:50px;
+    bottom:40px;
+}
+#box3{
+    position:fixed
+    top:90px;
+    bottom:80px;
+
 }
