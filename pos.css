@@ -12,8 +12,9 @@ div{
 }
 #box2{
     position:relative;
-    top:50px;
+    top:-50px;
     bottom:40px;
+    z-index: 4;
 }
 #box3{
     position:fixed

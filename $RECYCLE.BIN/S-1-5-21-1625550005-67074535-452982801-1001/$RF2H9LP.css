@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+.scratch-card {
+    width: 300px;
+    height: 100px;
+    background: gray;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+    overflow: hidden;
+}
+.message {
+    background: pink;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s;
+}
+.message:hover {
+    opacity: 0;
+}
