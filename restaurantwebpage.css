@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: rgba(0,0,0,0.7) center fixed;
+    background-image: url("food.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+  
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+   color:lightcoral;
+   
+}
+h2{
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    font-size: 40px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+a{
+    color: orchid;
+}
+button{
+    background-color: cadetblue;
+    font-size: larger;
+    border:3px solid black;
+    position: relative;
+    display:inline-block;
+    margin-top: 30px;
+    padding: 12px;
+    border-radius: 2rem;
+    transition: 3s
+    
+
+ 
+}
+button:hover{
+    scale:.8;
+    
+}
+.content{
+    position: absolute;
+    top:25%;
+    left:90px;
+}
